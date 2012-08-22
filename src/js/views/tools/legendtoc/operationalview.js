@@ -1,6 +1,6 @@
 (function() {
 
-  define(['jquery', 'underscore', 'backbone', 'views/tools/layertoc/operationalitem'], function($, _, Backbone, OperationalItem) {
+  define(['jquery', 'underscore', 'backbone', 'views/tools/legendtoc/operationalitem'], function($, _, Backbone, OperationalItem) {
     var OperationalView;
     return OperationalView = Backbone.View.extend({
       id: 'menu-operational',

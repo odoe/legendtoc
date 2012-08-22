@@ -1,6 +1,6 @@
 (function() {
 
-  define(['jquery', 'underscore', 'backbone', 'views/tools/layertoc/operationalitemsubdetailview'], function($, _, Backbone, LegendItem) {
+  define(['jquery', 'underscore', 'backbone', 'views/tools/legendtoc/operationalitemsubdetailview'], function($, _, Backbone, LegendItem) {
     var OperationalItemSubView;
     return OperationalItemSubView = Backbone.View.extend({
       tagName: 'li',

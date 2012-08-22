@@ -2,7 +2,7 @@ define [
   'jquery'
   'underscore'
   'backbone'
-  'views/tools/layerlgnd/operationalitem'
+  'views/tools/legendtoc/operationalitem'
 ], ($, _, Backbone, OperationalItem) ->
   OperationalView = Backbone.View.extend
     id: 'menu-operational'

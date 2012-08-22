@@ -2,7 +2,7 @@ define [
   'jquery'
   'underscore'
   'backbone'
-  'views/tools/layerlgnd/operationalitemsubdetailview'
+  'views/tools/legendtoc/operationalitemsubdetailview'
 ], ($, _, Backbone, LegendItem) ->
   OperationalItemSubView = Backbone.View.extend
     tagName: 'li'

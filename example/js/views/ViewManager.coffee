@@ -3,7 +3,7 @@ define [
   'underscore'
   'backbone'
   'views/map/MapView'
-  'views/tools/layerlgnd/operationalview'
+  'views/tools/legendtoc/operationalview'
   'jqueryui'
   'esri/dijit/Popup'
 ], ($, _, Backbone, MapView, OperationalView) ->

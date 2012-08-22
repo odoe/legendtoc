@@ -1,6 +1,6 @@
 (function() {
 
-  define(['jquery', 'underscore', 'backbone', 'views/map/MapView', 'views/tools/layerlgnd/operationalview', 'jqueryui', 'esri/dijit/Popup'], function($, _, Backbone, MapView, OperationalView) {
+  define(['jquery', 'underscore', 'backbone', 'views/map/MapView', 'views/tools/legendtoc/operationalview', 'jqueryui', 'esri/dijit/Popup'], function($, _, Backbone, MapView, OperationalView) {
     var ViewManager;
     return ViewManager = Backbone.View.extend({
       el: $('#container-main'),
