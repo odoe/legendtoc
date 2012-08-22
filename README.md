@@ -11,8 +11,9 @@ nested menu magic. I included an example application to demonstrate how
 to use this tool.
 
 This was something I've been using in-house and has worked out well, so
-I thought I would share.
+I thought I would share. I put a running demo [here].
 
 [ESRI JavaScript API]: http://help.arcgis.com/en/webapi/javascript/arcgis/index.html
 [Backbone.js]: http://backbonejs.org/
 [Twitter Bootstrap]:http://twitter.github.com/bootstrap/
+[here]: http://www.odoe.net/apps/legendtoc/
