@@ -2,7 +2,7 @@
 
   require({
     async: 1,
-    parseOnLoad: true,
+    parseOnLoad: false,
     aliases: [["text", "dojo/text"]],
     packages: [
       {
