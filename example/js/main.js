@@ -45,7 +45,9 @@
   define.amd.jQuery = true;
 
   require(['app', 'jquery'], function(App) {
-    return App.initialize();
+    return dojo.ready(function() {
+      return App.initialize();
+    });
   });
 
 }).call(this);

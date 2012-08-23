@@ -41,4 +41,5 @@ require
 
 define.amd.jQuery = true
 require ['app', 'jquery'], (App) ->
-  App.initialize()
+  dojo.ready ->
+    App.initialize()
