@@ -40,6 +40,6 @@ require
    ]
 
 define.amd.jQuery = true
-require ['app', 'jquery'], (App) ->
-  dojo.ready ->
+require ['jquery', 'app'], ($, App) ->
+  $(document).ready ->
     App.initialize()
